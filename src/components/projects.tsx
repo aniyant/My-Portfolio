@@ -16,5 +16,6 @@ export const Projects = () => {
         <p>Description of Project 7</p>
         <h2>Project 8</h2>
         <p>Description of Project 8</p>
+        <h2>Project 9</h2>
     </div>
 }
