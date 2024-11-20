@@ -9,6 +9,7 @@ function App() {
       <div>My Portfolio</div>
       <div>My skills</div>
       <div>My Projects</div>
+      <div>Contacts</div>
       </header>
     </div>
   );
