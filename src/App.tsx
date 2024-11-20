@@ -10,6 +10,7 @@ function App() {
       <div>My skills</div>
       <div>My Projects</div>
       <div>Contacts</div>
+      <div></div>
       </header>
     </div>
   );
