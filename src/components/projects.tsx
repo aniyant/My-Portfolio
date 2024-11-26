@@ -1,4 +1,4 @@
 export const Projects = () => {
-    return <div>Projects
+    return <div>Proje
     </div>
 }
