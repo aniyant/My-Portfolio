@@ -7,7 +7,6 @@ function App() {
     <div className="App">
       <header className="App-header">
       <div>My Portfolio</div>
-      <div>sdfjlsadlfj</div>
       </header>
     </div>
   );
