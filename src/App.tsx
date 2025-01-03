@@ -7,34 +7,6 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div>My Portfolio</div>
-       sdjflkdasjljfkldsja
-       lkjsdalfkjsaldjflass
-       lksjdfljsdaljfdaslkj
-       ksdjlfkjadsljlfsa
-       lkjlsjdlfjdslaj
-       lkjskldfjlasjfljsad
-       lkjsdkljflsaj
-       <div>
-        ljfsdkljf
-       </div>
-       <div>
-        sdjkfljsladjf
-        <div>
-          lksjdklfjlsakdjfl
-          <div>
-            lksdjfljsdljfla
-            <div>
-              lksdjflkjasl
-              <div>
-                sdkjflksadjlfjalj
-                <div>kkdsjflkjalfjaljflakjjflajljasjfsjajajjsdofoahosd
-                  <div>jdskfsak</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-       </div>
       </header>
     </div>
       )
