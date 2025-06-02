@@ -15,93 +15,42 @@ const AboutMeSection = () => {
       </div>
 
       <div className="self-center">
-        {/* Image */}
-        {/* <div className="flex justify-center md:order-first md:justify-end">
-          <div className="relative h-[380px] w-[320px] md:h-[460px] md:w-[380px] lg:h-[520px] lg:w-[440px]">
-            <Image
-              src={SagarFullPose}
-              alt="Fullpose of Sagar"
-              className="absolute z-10 h-[360px] w-[280px] border-8 border-gray-50 max-md:left-5 md:right-0 md:top-0 md:h-[420px] md:w-[340px] lg:h-[480px] lg:w-[400px]"
-              style={{ objectFit: 'cover' }}
-            ></Image>
-            <div className="absolute h-[360px] w-[320px] border-8 border-transparent bg-gray-200 max-md:top-5 md:bottom-0 md:left-0 md:h-[420px] md:w-[340px] lg:h-[480px] lg:w-[400px]"></div>
-          </div>
-        </div> */}
-
         {/* Content */}
         <div className="flex flex-col gap-6">
           <Typography variant="h3" className='text-center'>
             Curious about me? Here you have it:
           </Typography>
           <Typography>
-            I&apos;m a passionate,{' '}
-            <Link
-              noCustomization
-              externalLink
-              withUnderline
-              href={EXTERNAL_LINKS.FIGMA}
-            >
-              self-proclaimed designer
-            </Link>{' '}
-            who specializes in full stack development (React.js & Node.js). I am
-            enthusiastic about bringing the technical and visual aspects of
-            digital products to life. User experience, pixel perfect design, and
-            writing clear, readable, highly performant code matters to me.
+            I&apos;m a full-stack developer and problem solver with a passion for building impactful products and delivering clean, maintainable code. My expertise lies in crafting seamless user experiences and building scalable, high-performance backend systems. I enjoy working on everything from design systems to API architecture.
           </Typography>
           <Typography>
-            I began my journey as a web developer in 2015, and since then,
-            I&apos;ve continued to grow and evolve as a developer, taking on new
-            challenges and learning the latest technologies along the way. Now,
-            in my early thirties, 7 years after starting my web development
-            journey, I&apos;m building cutting-edge web applications using
-            modern technologies such as Next.js, TypeScript, Nestjs,
-            Tailwindcss, Supabase and much more.
+            My core stack includes React, TypeScript, Node.js (NestJS), Tailwind CSS, and MongoDB. I have experience integrating third-party services, building RESTful APIs, working with Redux for state management, and optimizing frontend performance for speed and accessibility. On the backend, I focus on microservices, Dockerized deployments, CI/CD pipelines, and infrastructure on Azure.
           </Typography>
           <Typography>
-            I am very much a progressive thinker and enjoy working on products
-            end to end, from ideation all the way to development.
+            Beyond technical skills, I believe in developer empathy, continuous learning, and shipping products that make a difference. I enjoy working on projects that blend technology, design, and business logic into cohesive solutions.
           </Typography>
           <Typography>
-            When I&apos;m not in full-on developer mode, you can find me
-            hovering around on twitter or on indie hacker, witnessing the
-            journey of early startups or enjoying some free time. You can follow
-            me on{' '}
-            <Link
-              noCustomization
-              externalLink
-              withUnderline
-              href={EXTERNAL_LINKS.TWITTER}
-            >
-              Twitter
-            </Link>{' '}
-            where I share tech-related bites and build in public, or you can
-            follow me on{' '}
-            <Link
-              noCustomization
-              externalLink
-              withUnderline
-              href={EXTERNAL_LINKS.GITHUB}
-            >
-              GitHub
-            </Link>
-            .
+            When I&apos;m not coding, I&apos;m often exploring DevOps practices, reading about system design, or contributing to open-source. I&apos;m also a fan of clean UI/UX design, staying active in the startup ecosystem, and mentoring budding developers.
           </Typography>
-          <Typography>Finally, some quick bits about me.</Typography>
+          <Typography>
+            Here are a few of the technologies and tools I frequently work with:
+          </Typography>
           <div className="flex flex-col gap-2 md:flex-row md:gap-6">
             <ul className="flex list-inside list-disc flex-col gap-2">
-              <Typography component="li">
-                B.E. in Computer Engineering
-              </Typography>
-              <Typography component="li">Full time freelancer</Typography>
+              <Typography component="li">React.js, Next.js, TypeScript</Typography>
+              <Typography component="li">NestJS, Node.js, Express.js</Typography>
+              <Typography component="li">MongoDB, PostgreSQL, Supabase</Typography>
+              <Typography component="li">Redux, Zustand, TanStack Query</Typography>
             </ul>
             <ul className="flex list-inside list-disc flex-col gap-2">
-              <Typography component="li">Avid learner</Typography>
-              <Typography component="li">Aspiring indie hacker</Typography>
+              <Typography component="li">Tailwind CSS, Shadcn UI, Framer Motion</Typography>
+              <Typography component="li">Docker, GitHub Actions, CI/CD</Typography>
+              <Typography component="li">Azure Cloud, Kubernetes (basic)</Typography>
+              <Typography component="li">Monitoring: Prometheus, Grafana, Loki</Typography>
             </ul>
           </div>
           <Typography>
-            One last thing, I&apos;m available for freelance work, so feel free
-            to reach out and say hello! I promise I don&apos;t bite 😉
+            I&apos;m always exploring ways to push my limits, learn new technologies, and contribute meaningfully to the community. Whether it&apos;s a collaborative team project, a solo build, or mentoring others, I&apos;m all in.
           </Typography>
         </div>
       </div>
