@@ -37,16 +37,16 @@ const AboutMeSection = () => {
           </Typography>
           <div className="flex flex-col gap-2 md:flex-row md:gap-6">
             <ul className="flex list-inside list-disc flex-col gap-2">
-              <Typography component="li">React.js, Next.js, TypeScript</Typography>
+              <Typography component="li">React.js, Next.js, Redux Toolkit, TypeScript</Typography>
               <Typography component="li">NestJS, Node.js, Express.js</Typography>
-              <Typography component="li">MongoDB, PostgreSQL, Supabase</Typography>
-              <Typography component="li">Redux, Zustand, TanStack Query</Typography>
+              <Typography component="li">MongoDB, PostgreSQL, MySQL</Typography>
+              <Typography component="li">TailWind CSS, Chakra UI, Material UI</Typography>
             </ul>
             <ul className="flex list-inside list-disc flex-col gap-2">
-              <Typography component="li">Tailwind CSS, Shadcn UI, Framer Motion</Typography>
-              <Typography component="li">Docker, GitHub Actions, CI/CD</Typography>
-              <Typography component="li">Azure Cloud, Kubernetes (basic)</Typography>
-              <Typography component="li">Monitoring: Prometheus, Grafana, Loki</Typography>
+              <Typography component="li">Docker, GitHub Actions, CI/CD pipelines</Typography>
+              <Typography component="li">Azure Cloud, Kubernetes</Typography>
+              <Typography component="li">Prometheus, Grafana, Loki for monitoring</Typography>
+              <Typography component="li">REST APIs, WebSockets, Authentication & Authorization</Typography>
             </ul>
           </div>
           <Typography>
