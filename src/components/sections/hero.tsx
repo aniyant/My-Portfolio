@@ -15,7 +15,7 @@ const HeroSection = () => {
           <div className="relative h-[300px] w-[280px] md:h-[360px] md:w-[320px]">
             <Image
               src={SunnyHeadshot}
-              alt="Headshot of Sagar"
+              alt="Headshot of Sunny"
               className="absolute z-10 h-[280px] w-[240px] border-8 border-gray max-md:left-5 md:left-0 md:top-0 md:h-[320px] md:w-[280px]"
               style={{ objectFit: 'cover' }}
             ></Image>
@@ -31,17 +31,13 @@ const HeroSection = () => {
               <span className="inline-block animate-waving-hand">👋</span>
             </Typography>
             <Typography>
-              I&apos;m a full stack developer (React.js & Node.js) with a focus
-              on creating (and occasionally designing) exceptional digital
-              experiences that are fast, accessible, visually appealing, and
-              responsive. Even though I have been creating web applications for
-              over 7 years, I still love it as if it was something new.
+              I&apos;m a full-stack developer with a passion for crafting responsive, scalable, and user-friendly web applications. With 1 year of hands-on experience in technologies like React.js, Next.js, and Node.js, I focus on building clean, maintainable code and delivering impactful digital solutions that solve real-world problems.
             </Typography>
           </div>
           <div className="flex flex-col gap-2">
             <div className="flex gap-2">
               <MapPin className="stroke-gray-600" />
-              <Typography>Ahmedabad, India</Typography>
+              <Typography>Bengaluru, India</Typography>
             </div>
 
             <div className="flex items-center gap-2">
@@ -58,6 +54,7 @@ const HeroSection = () => {
         </div>
       </div>
     </Container>
+
   );
 };
 
