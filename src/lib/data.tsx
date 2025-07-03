@@ -3,7 +3,7 @@ import { Github, Twitter, Figma } from 'lucide-react';
 import LogoJavascript from '/public/images/logos/icon-javascript.svg';
 import LogoTypescript from '/public/images/logos/icon-typescript.svg';
 import LogoReact from '/public/images/logos/icon-react.svg';
-import LogoNextjs from '/public/images/logos/icon-nextjs.svg';
+// import LogoNextjs from '/public/images/logos/icon-nextjs.svg';
 import LogoNodejs from '/public/images/logos/icon-nodejs.svg';
 import LogoExpress from '/public/images/logos/icon-express.svg';
 import LogoExpressLight from '/public/images/logos/icon-express-light.svg';
@@ -15,10 +15,11 @@ import LogoMongoDB from '/public/images/logos/icon-mongodb.svg';
 import LogoSass from '/public/images/logos/icon-sass.svg';
 import LogoTailwindcss from '/public/images/logos/icon-tailwindcss.svg';
 import LogoFigma from '/public/images/logos/icon-figma.svg';
-import LogoCypress from '/public/images/logos/icon-cypress.svg';
-import LogoCypressLight from '/public/images/logos/icon-cypress-light.svg';
-import LogoStorybook from '/public/images/logos/icon-storybook.svg';
+// import LogoCypress from '/public/images/logos/icon-cypress.svg';
+// import LogoCypressLight from '/public/images/logos/icon-cypress-light.svg';
+// import LogoStorybook from '/public/images/logos/icon-storybook.svg';
 import LogoGit from '/public/images/logos/icon-git.svg';
+import LogoMySQL from '/public/images/logos/icon-mysql.svg'
 
 import LogoUpwork from '/public/images/logos/logo-upwork.svg';
 import LogoGreenApex from '/public/images/logos/logo-greenapex.svg';
@@ -100,11 +101,11 @@ export const TECHNOLOGIES: TechDetails[] = [
     logo: LogoReact,
     url: 'https://react.dev/',
   },
-  {
-    label: 'Next.js',
-    logo: LogoNextjs,
-    url: 'https://nextjs.org/',
-  },
+  // {
+  //   label: 'Next.js',
+  //   logo: LogoNextjs,
+  //   url: 'https://nextjs.org/',
+  // },
   {
     label: 'Node.js',
     logo: LogoNodejs,
@@ -126,6 +127,11 @@ export const TECHNOLOGIES: TechDetails[] = [
     logo: LogoSocket,
     darkModeLogo: LogoSocketLight,
     url: 'https://socket.io/',
+  },
+  {
+    label: 'MySQL',
+    logo: LogoMySQL,
+    url: 'https://www.mysql.com/'
   },
   {
     label: 'PostgreSQL',
@@ -152,17 +158,17 @@ export const TECHNOLOGIES: TechDetails[] = [
     logo: LogoFigma,
     url: 'https://www.figma.com/',
   },
-  {
-    label: 'Cypress',
-    logo: LogoCypress,
-    darkModeLogo: LogoCypressLight,
-    url: 'https://www.cypress.io/',
-  },
-  {
-    label: 'Storybook',
-    logo: LogoStorybook,
-    url: 'https://storybook.js.org/',
-  },
+  // {
+  //   label: 'Cypress',
+  //   logo: LogoCypress,
+  //   darkModeLogo: LogoCypressLight,
+  //   url: 'https://www.cypress.io/',
+  // },
+  // {
+  //   label: 'Storybook',
+  //   logo: LogoStorybook,
+  //   url: 'https://storybook.js.org/',
+  // },
   {
     label: 'Git',
     logo: LogoGit,
@@ -179,7 +185,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
     currentlyWorkHere: true,
     summary: [
       'Worked for various clients like Fiskil, Shosho, Crowe MacKay LLP.',
-      'Worked with a variety of technologies, including React, Next.js, Typescript, Express.js, PostgreSQL, Tailwindcss, Mui, Firebase, Storybook, Cypress, and others.',
+      'Worked with a variety of technologies, including React, Typescript, Express.js, PostgreSQL, MySQL, Tailwindcss, and others.',
     ],
   },
   {
