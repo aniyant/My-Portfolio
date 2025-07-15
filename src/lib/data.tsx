@@ -20,6 +20,7 @@ import LogoFigma from '/public/images/logos/icon-figma.svg';
 // import LogoStorybook from '/public/images/logos/icon-storybook.svg';
 import LogoGit from '/public/images/logos/icon-git.svg';
 import LogoMySQL from '/public/images/logos/icon-mysql.svg'
+import LogoAWS from '/public/images/logos/icon-aws.svg'
 
 import LogoUpwork from '/public/images/logos/logo-upwork.svg';
 import LogoGreenApex from '/public/images/logos/logo-greenapex.svg';
@@ -88,7 +89,7 @@ export const SOCIAL_LINKS = [
 export const TECHNOLOGIES: TechDetails[] = [
   {
     label: 'Javascript',
-    logo: LogoJavascript,
+    logo: LogoAWS,
     url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
   },
   {
